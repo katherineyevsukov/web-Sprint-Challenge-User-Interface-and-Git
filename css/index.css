@@ -91,7 +91,7 @@ header nav a{
     display: flex;
     justify-content: space-around;
 }
-
+ /* picture at top of page */
 
 #home {
     margin: 2% auto;
@@ -212,3 +212,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about page*/
+
+/* top of page */
+.city-img {
+        margin: 2% auto;
+        background-image:url('../img/jumbo-about.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75%;
+        height: 12vh;
+        padding:0;
+}
+
+.top-about {
+    border-bottom: 1px dotted;
+    margin: auto 15%;
+}
+
+/* bottom of page */
