@@ -17,7 +17,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	/*padding: 0;*/
+	padding: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -61,12 +61,10 @@ html{
     font-size: 62.5%;
 }
 
-    
-}
 h1, h2, h3, h4, h5 {
     margin-bottom: 1%;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 p {
@@ -75,17 +73,17 @@ p {
 
 /* header content styles here */
 
-.lambda-logo , .links{
-    display:flex;
-    justify-content: space-around;
-    max-width: 100%;
-}
 a {
     text-decoration: none;
     color: black;
 }
+
 .lambda-logo{
-    width: 15%;
+    width: 20%;
+}
+
+.lambda-logo img{
+    width: 100%;
 }
 header nav{
     display: flex;
@@ -93,17 +91,18 @@ header nav{
     align-items: center;
     padding: 2%;
 }
-
-header nav a{
+header nav .links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 75%;
 }
+
  /* picture at top of page */
 
 #home {
     margin: 2% auto;
     background-image:url('../img/jumbo.jpg');
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 75%;
@@ -113,7 +112,7 @@ header nav a{
 
 /* content at top of page under background image */
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -227,7 +226,7 @@ footer nav a {
 .city-img {
         margin: 2% auto;
         background-image:url('../img/jumbo-about.png');
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 75%;
@@ -236,15 +235,14 @@ footer nav a {
 }
 
 .top-about {
-    
-    margin: auto 15%;
+    margin: auto 15%; 
 }
 
 /* middle of about page with pictures */
 
 .about-page{
     border-top: 1px dashed black;
-    width: 100%;
+    width: 90%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -253,16 +251,29 @@ footer nav a {
 
 .quadrant {
     width:40%;
-    margin:2%
+    margin:2%;
+    border-bottom: 1px dashed black;
+}
 
+.quadrant h2{
+    font-size: 2rem;
+}
+
+.quadrant h3{
+    border: 2.5px solid black;
+    border-radius: 5px;
+    margin: 3% 0;
+    padding: 2%; 
+    width: 32%;
+    font-size: medium;
+    text-align: center;
 }
 .quadrant img {
-    
     width: 100%;
 }
 
 /* bottom of page "let's work together" */
 .bottom-about{
    width: 78%;
-   margin: 0 auto; 
+   margin: 0 auto 5%; 
 }
