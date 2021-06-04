@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML has meaning and is important for developers reading your code, for SEO (search engine optimization), and for accessibility purposes (for example, those who use screen readers). A div is an example of HTML that is NOT semantic as it does not specify what type of content is inside of it. On the other hand, 'nav' and 'main' are semantic because they explain that a specific area of the page is a navigation bar or that it is the main content on the page.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    Block level elements take up their own line and push following elements to a new line. Inline elements only take up as much space as they need and can be anywhere within a line. Block level elements can take a width and height, while inline elements cannot.
 
 3. What are the 4 areas of the box model?
+    Content - the items inside the box, like text or images
+    Padding - the area around the content, but inside the border
+    Border - what goes around the content and it's passing 
+    Margin - the area outside of the border
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    It works on the cross axis. If the flex-direction of 'row' (default) was used, that would be the vertical axis. If the flex-direction of 'column' was used, it would be the horizontal axis.
 
 5. Explain why git is valuable to a team of developers.
+    Git is valuable to developers working within a team because team members are able to create their own 'branches' that they can work on individually and then can later merge together after review. Git also keeps track of changes through regular 'commits'. This way developers can see what changes were made and when and go back to an earlier version of the code if need be. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
